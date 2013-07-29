@@ -1,0 +1,262 @@
+methods:
+		services_by_service_plan_guid
+users_by_space_guid
+version
+presence
+silence_warnings
+current_organization=
+		route
+user_provided_service_instances_from
+spaces_by_organization_guid
+organization_by_manager_guid
+services_from
+methods
+send
+service_instances_by_service_binding_guid
+make_app_event
+blank?
+user_by_managed_space_guid
+stack_from
+current_space
+taint
+to_enum
+instance_variable_defined?
+organizations_from
+make_app
+logged_in?
+spaces_first_page
+user_by_organization_guid
+current_space=
+		domain_by_name
+make_user_provided_service_instance
+route_from
+quota_definition
+quota_definitions
+space_by_developer_guid
+token
+service_bindings
+silence_stderr
+service_auth_token
+organizations_by_manager_guid
+make_service
+singleton_methods
+instance_eval
+service_instance_by_gateway_name
+organization
+silence
+current_user
+token=
+		users_by_managed_space_guid
+stacks_from
+routes_first_page
+enum_for
+service_instance_by_name
+make_organization
+users
+domains_first_page
+nil?
+space_from
+users_by_organization_guid
+route_by_host
+domains_by_name
+login_prompts
+spaces_by_developer_guid
+routes
+quota_definitions_first_page
+silence_stream
+in?
+service_plan
+service_auth_tokens
+organization_by_billing_manager_guid
+protected_methods
+instance_exec
+service_instances_by_gateway_name
+service_instance
+tainted?
+user_by_audited_space_guid
+make_stack
+login
+routes_from
+organization_by_name
+untaint
+instance_of?
+users_first_page
+domain_from
+stack
+service_instances_by_name
+equal?
+user_by_managed_organization_guid
+routes_by_host
+log
+spaces_from
+app_by_name
+domain_by_owning_organization_guid
+space_by_app_guid
+quota_definition_from
+hash
+log=
+		service_auth_tokens_first_page
+organizations_by_billing_manager_guid
+private_methods
+service_binding_by_app_guid
+users_by_audited_space_guid
+stack_by_name
+organizations
+organizations_by_name
+make_route
+kind_of?
+freeze
+user_from
+domains_from
+service
+service_instance_by_space_guid
+eql?
+service_bindings_first_page
+users_by_managed_organization_guid
+route_by_domain_guid
+make_space
+decode64
+service_plans_first_page
+domain
+app_by_space_guid
+domains_by_owning_organization_guid
+decode_b
+taguri
+id
+spaces_by_app_guid
+service_instances
+quota_definitions_from
+user
+suppress
+service_auth_token_from
+space
+organization_by_auditor_guid
+user_provided_service_instance
+taguri=
+		public_methods
+service_bindings_by_app_guid
+stacks_by_name
+services
+service_plan_by_service_guid
+organization_by_space_guid
+service_plans
+http_proxy
+is_a?
+singleton_class
+users_from
+make_domain
+service_instances_by_space_guid
+app_events
+routes_by_domain_guid
+info
+service_binding_from
+user_by_billing_managed_organization_guid
+apps_by_space_guid
+domain_by_space_guid
+http_proxy=
+		to_yaml_style
+service_plan_from
+tap
+register
+type
+service_instances_first_page
+make_quota_definition
+app_event
+service_auth_tokens_from
+spaces
+organizations_by_auditor_guid
+instance_variables
+app
+user_provided_service_instances
+__id__
+frozen?
+service_binding_by_service_instance_guid
+domains
+space_by_name
+present?
+https_proxy
+service_binding
+apps
+service_plans_by_service_guid
+organizations_by_space_guid
+to_a
+service_instance_by_service_plan_guid
+app_events_first_page
+make_user
+respond_to?
+display
+service_bindings_from
+users_by_billing_managed_organization_guid
+method
+app_by_organization_guid
+domains_by_space_guid
+https_proxy=
+		service_plans_from
+class
+		service_instance_from
+		quota_definition_by_name
+		apps_first_page
+		capture
+		target
+		make_service_auth_token
+		instance_variable_get
+		user_provided_service_instances_first_page
+		==
+				__send__
+		spaces_by_name
+		to_yaml_properties
+		service_bindings_by_service_instance_guid
+		with_warnings
+		===
+				extend
+		services_first_page
+		target=
+				service_plan_by_service_instance_guid
+		apps_by_name
+		organization_by_user_guid
+		to_s
+		service_instances_by_service_plan_guid
+		app_event_from
+		base
+		encode64
+		make_service_binding
+		user_by_audited_organization_guid
+		stacks
+		stream_url
+		b64encode
+		make_service_plan
+		apps_by_organization_guid
+		app_from
+		service_instances_from
+		organizations_first_page
+		quota_definitions_by_name
+		clone
+		quietly
+		service_by_service_plan_guid
+		user_by_space_guid
+		=~
+		instance_variable_set
+		to_yaml
+		user_provided_service_instance_from
+		trace
+		space_by_organization_guid
+		logout
+		query_target
+		enable_warnings
+		to_json
+		service_plans_by_service_instance_guid
+		organizations_by_user_guid
+		service_from
+		service_instance_by_service_binding_guid
+		app_events_from
+		inspect
+		users_by_audited_organization_guid
+		stacks_first_page
+		trace=
+				class_eval
+		current_organization
+		dup
+		object_id
+		apps_from
+		make_service_instance
+		organization_from
