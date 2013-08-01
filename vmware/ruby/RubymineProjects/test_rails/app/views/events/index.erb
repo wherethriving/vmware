@@ -1,0 +1,19 @@
+<h1>Show all events</h1>
+<ul>
+  <% if @events.blank? %>
+     <li>
+       <h2>There are no events.</h2>
+     </li>
+  <% else %>
+      <% @events.each do |event| %>
+          <li>
+            <%=h event.id %>
+            <%= link_to event.name, :controller => 'events', :action => 'show', :id => event %>
+            <%= link_to 'edit', :controller => 'events', :action => 'edit', :id => event %>
+            <%= link_to 'delete', :controller => 'events', :action => 'destroy', :id => event %>
+          </li>
+      <% end -%>
+  <% end -%>
+</ul>
+
+<%= link_to 'New event', :controller => 'events', :action => 'new' %>

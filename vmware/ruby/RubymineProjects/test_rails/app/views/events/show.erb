@@ -1,0 +1,33 @@
+<ul>
+  <li>
+    <%=h "ID:"  %>
+        <%=h @event.id %>
+  </li>
+<li>
+  <%=h "Name:"  %>
+    <%=h @event.name %>
+</li>
+<li>
+  <%=h "Capacity:"  %>
+  <% if @event.capacity? %>
+      <%=h @event.capacity %>
+  <% else %>
+      <%= "0" %>
+  <% end %>
+</li>
+<li>
+  <%=h "requestID:"  %>
+  <% if @event.id? %>
+      <%=h @event.id %>
+  <% else %>
+      <%= "empty" %>
+  <% end %>
+</li>
+<li>
+  <%=h "description:"  %>
+    <%=h @event.description %>
+</li>
+<p>
+   <%= link_to 'back to event', :controller => 'events', :action => 'index' %>
+</p>
+</ul>
