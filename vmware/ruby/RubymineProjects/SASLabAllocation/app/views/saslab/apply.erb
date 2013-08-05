@@ -1,0 +1,15 @@
+<p>Submit a new request.</p>
+
+<%= form_for @event, :url => { :controller => 'saslab',
+                               :action => 'create' } do |f| %>
+    <%= f.boolean :numESXi, "Dedicated ESXi servers:" %>
+    <%= f.text_field :name %>
+    <%= f.label :capacity, "Capacity" %>
+    <%= f.text_field :capacity %>
+    <%= f.label :description, "Description" %>
+    <%= f.text_area :description %>
+
+    <%= f.submit "Submit" %>
+<% end %>
+
+<%= link_to 'back' %>

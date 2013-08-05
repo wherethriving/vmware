@@ -1,0 +1,19 @@
+<h1>Show all requests</h1>
+<ul>
+  <% if @events.blank? %>
+      <li>
+        <h2>There are no request.</h2>
+      </li>
+  <% else %>
+      <% @events.each do |event| %>
+          <li>
+            <%=h event.id %>
+            <%= link_to event.email , :controller => 'saslab', :action => 'show', :id => event %>
+
+            <%= link_to 'delete', :controller => 'saslab', :action => 'destroy', :id => event %>
+          </li>
+      <% end -%>
+  <% end -%>
+</ul>
+
+<%= link_to 'New request', :controller => 'saslab', :action => 'apply' %>

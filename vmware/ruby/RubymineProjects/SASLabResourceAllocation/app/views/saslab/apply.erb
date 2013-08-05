@@ -1,0 +1,33 @@
+<p>Please fill in the form based on your request. Describe your project as details as possible. It should
+include but not limited to the following content in the form. The lab management team will review your request
+ and give you feedback within 2 days.</p>
+
+<%= form_for @event, :url => { :controller => 'saslab',
+                               :action => 'create' } do |f| %>
+    <%= f.label :email, "Your Email:" %>
+    <%= f.text_field :email %>
+    <%= f.label :esx_dedicated, "Dedicated ESXi servers:" %>
+    <%= f.text_field :esx_dedicated %>
+    <%= f.label :esx_num, "Number of ESXi servers:" %>
+    <%= f.text_field :esx_num %>
+    <%= f.label :vcenter_standalone, "Standalone vCenter needed:" %>
+    <%= f.text_field :vcenter_standalone %>
+    <%= f.label :vcpu_num, "Number of vCPUs:" %>
+    <%= f.text_field :vcpu_num %>
+    <%= f.label :mem_size, "Size of total memory(GB):" %>
+    <%= f.text_field :mem_size %>
+    <%= f.label :storage_size, "Storage space(GB),local disk or shared storage:" %>
+    <%= f.text_field :storage_size %>
+    <%= f.label :num_dynamic_ip, "Number of dynamic IPs(DHCP):" %>
+    <%= f.text_field :num_dynamic_ip %>
+    <%= f.label :num_static_ip, "Number of static IPs:" %>
+    <%= f.text_field :num_static_ip %>
+    <%= f.label :duration, "Duration of the usage:" %>
+    <%= f.text_field :duration %>
+    <%= f.label :info, "info" %>
+    <%= f.text_area :info %>
+
+    <%= f.submit "Submit" %>
+<% end %>
+
+<%= link_to 'back' %>

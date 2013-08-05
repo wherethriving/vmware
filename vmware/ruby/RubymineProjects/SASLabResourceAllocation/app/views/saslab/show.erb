@@ -1,0 +1,116 @@
+<ul>
+  <h3>User Info:</h3>
+  <li>
+    <%=h "Email:"  %>
+    <% if @event.email? %>
+        <%=h @event.email %>
+    <% else %>
+        <%= "Empty" %>
+    <% end %>
+  </li>
+
+  <li>
+    <%=h "Apply time:"  %>
+    <% if @event.created_at? %>
+        <%=h @event.created_at %>
+    <% else %>
+        <%= "Empty" %>
+    <% end %>
+  </li>
+
+  <h3>Request Info:</h3>
+  <li>
+    <%=h "Dedicated ESXi servers::"  %>
+    <% if @event.esx_dedicated? %>
+        <%=h @event.esx_dedicated %>
+    <% else %>
+        <%= "No" %>
+    <% end %>
+  </li>
+  <li>
+    <%=h "Number of ESXi servers:"  %>
+    <% if @event.esx_num? %>
+        <%=h @event.esx_num %>
+    <% else %>
+        <%= "0" %>
+    <% end %>
+  </li>
+  <li>
+    <%=h "Standalone vCenter needed:"  %>
+    <% if @event.vcenter_standalone? %>
+        <%=h @event.vcenter_standalone %>
+    <% else %>
+        <%= "Empty" %>
+    <% end %>
+  </li>
+  <li>
+    <%=h "Number of vCPUs::"  %>
+    <% if @event.vcpu_num? %>
+        <%=h @event.vcpu_num %>
+    <% else %>
+        <%= "0" %>
+    <% end %>
+  </li>
+  <li>
+    <%=h "Size of total memory(GB):"  %>
+    <% if @event.mem_size? %>
+        <%=h @event.mem_size " (GB) " %>
+    <% else %>
+        <%= "0 (GB)" %>
+    <% end %>
+  </li>
+  <li>
+    <%=h "Storage space(GB),local disk or shared storage:"  %>
+    <% if @event.storage_size? %>
+        <%=h @event.storage_size " (GB)" %>
+    <% else %>
+        <%= "0 (GB)" %>
+    <% end %>
+  </li>
+  <li>
+    <%=h "Number of dynamic IPs(DHCP):"  %>
+    <% if @event.num_dynamic_ip? %>
+        <%=h @event.num_dynamic_ip %>
+    <% else %>
+        <%= "0" %>
+    <% end %>
+  </li>
+  <li>
+    <%=h "Number of static IPs:"  %>
+    <% if @event.num_static_ip? %>
+        <%=h @event.num_static_ip %>
+    <% else %>
+        <%= "0" %>
+    <% end %>
+  </li>
+  <li>
+    <%=h "Duration of the usage:"  %>
+    <% if @event.duration? %>
+        <%=h @event.duration "day(s)" %>
+    <% else %>
+        <%= "0 day" %>
+    <% end %>
+  </li>
+  <li>
+    <%=h "status:"  %>
+    <% if @event.status? %>
+        <%=h @event.status %>
+    <% else %>
+        <%= "Waiting" %>
+    <% end %>
+  </li>
+  <li>
+    <%=h "info:"  %>
+    <% if @event.info? %>
+        <%=h @event.info %>
+    <% else %>
+        <%= "Empty" %>
+    <% end %>
+  </li>
+  <%= link_to "Accept", :controller => 'saslab', :action => 'accept' %>
+  <%= link_to "Reject", :controller => 'saslab', :action => 'reject' %>
+  <p>
+    <%= link_to 'back to admin', :controller => 'saslab', :action => 'admin' %>
+  </p>
+</ul>
+

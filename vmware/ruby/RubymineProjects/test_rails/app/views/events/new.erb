@@ -6,8 +6,11 @@
     <%= f.text_field :name %>
     <%= f.label :capacity, "Capacity" %>
     <%= f.text_field :capacity %>
+    <%= f.boolean :is_public, "is_public" %>
+    <%= f.text :is_public %>
     <%= f.label :description, "Description" %>
     <%= f.text_area :description %>
+
 
     <%= f.submit "Create" %>
 <% end %>
