@@ -13,7 +13,7 @@
     <file path="/routes.rb" changelist="6df9565e-c326-470f-b9ce-1e00ca6a56e3" time="1375677912800" ignored="false" />
     <file path="$PROJECT_DIR$/../test_rails/app/controllers/events_controller.rb" changelist="6df9565e-c326-470f-b9ce-1e00ca6a56e3" time="1375682018220" ignored="false" />
     <file path="/events_controller.rb" changelist="6df9565e-c326-470f-b9ce-1e00ca6a56e3" time="1375682014821" ignored="false" />
-    <file path="/Dummy.txt" changelist="6df9565e-c326-470f-b9ce-1e00ca6a56e3" time="1375688817366" ignored="false" />
+    <file path="/Dummy.txt" changelist="6df9565e-c326-470f-b9ce-1e00ca6a56e3" time="1375696182592" ignored="false" />
     <file path="$PROJECT_DIR$/../test1/Gemfile" changelist="6df9565e-c326-470f-b9ce-1e00ca6a56e3" time="1375683005742" ignored="false" />
     <file path="/Gemfile" changelist="6df9565e-c326-470f-b9ce-1e00ca6a56e3" time="1375688270362" ignored="false" />
     <file path="$PROJECT_DIR$/../test1/config/environments/development.rb" changelist="6df9565e-c326-470f-b9ce-1e00ca6a56e3" time="1375683103516" ignored="false" />
@@ -783,7 +783,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-4" width="1217" height="805" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937685" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
